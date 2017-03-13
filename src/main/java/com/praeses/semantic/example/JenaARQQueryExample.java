@@ -7,7 +7,7 @@ import org.apache.jena.sparql.vocabulary.FOAF;
 /**
  *
  */
-public class JenaARQQueyExample {
+public class JenaARQQueryExample {
     public static Query getQuery() {
         ParameterizedSparqlString sparqlString = new ParameterizedSparqlString("" +
                 "SELECT ?title\n" +
